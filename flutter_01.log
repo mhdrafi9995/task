@@ -1,0 +1,60 @@
+Flutter crash report.
+Please report a bug at https://github.com/flutter/flutter/issues.
+
+## command
+
+flutter run --machine --start-paused -d emulator-5554 --devtools-server-address http://127.0.0.1:9100/ --target C:\Users\USER\Documents\toffee_work\bloc_sample\lib\main.dart
+
+## exception
+
+HttpException: HttpException: Connection closed before full header was received, uri = http://127.0.0.1:56888/5XiuUlnyawg=/ws
+
+```
+```
+
+## flutter doctor
+
+```
+[✓] Flutter (Channel stable, 3.13.0, on Microsoft Windows [Version 10.0.22621.3155], locale en-IN)
+    • Flutter version 3.13.0 on channel stable at C:\Users\USER\Documents\flutter\flutter_windows_3.13.0-stable\flutter
+    • Upstream repository https://github.com/flutter/flutter.git
+    • Framework revision efbf63d9c6 (7 months ago), 2023-08-15 21:05:06 -0500
+    • Engine revision 1ac611c64e
+    • Dart version 3.1.0
+    • DevTools version 2.25.0
+
+[✓] Windows Version (Installed version of Windows is version 10 or higher)
+
+[✓] Android toolchain - develop for Android devices (Android SDK version 34.0.0)
+    • Android SDK at C:\Users\USER\AppData\Local\Android\sdk
+    • Platform android-34, build-tools 34.0.0
+    • Java binary at: C:\Program Files\Android\Android Studio\jbr\bin\java
+    • Java version OpenJDK Runtime Environment (build 17.0.6+0-b2043.56-10027231)
+    • All Android licenses accepted.
+
+[✓] Chrome - develop for the web
+    • Chrome at C:\Program Files\Google\Chrome\Application\chrome.exe
+
+[✓] Android Studio (version 2022.3)
+    • Android Studio at C:\Program Files\Android\Android Studio
+    • Flutter plugin can be installed from:
+      🔨 https://plugins.jetbrains.com/plugin/9212-flutter
+    • Dart plugin can be installed from:
+      🔨 https://plugins.jetbrains.com/plugin/6351-dart
+    • Java version OpenJDK Runtime Environment (build 17.0.6+0-b2043.56-10027231)
+
+[✓] VS Code (version 1.87.2)
+    • VS Code at C:\Users\USER\AppData\Local\Programs\Microsoft VS Code
+    • Flutter extension version 3.84.0
+
+[✓] Connected device (4 available)
+    • Redmi Note 8 (mobile)        • 8e364df       • android-arm64  • Android 11 (API 30)
+    • AOSP on IA Emulator (mobile) • emulator-5554 • android-x86    • Android 9 (API 28) (emulator)
+    • Chrome (web)                 • chrome        • web-javascript • Google Chrome 122.0.6261.129
+    • Edge (web)                   • edge          • web-javascript • Microsoft Edge 122.0.2365.80
+
+[✓] Network resources
+    • All expected network resources are available.
+
+• No issues found!
+```
